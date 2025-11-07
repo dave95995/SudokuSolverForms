@@ -54,6 +54,7 @@
             buttonClear.TabIndex = 1;
             buttonClear.Text = "Clear";
             buttonClear.UseVisualStyleBackColor = true;
+            buttonClear.Click += buttonClear_Click;
             // 
             // buttonSolve
             // 
@@ -63,6 +64,7 @@
             buttonSolve.TabIndex = 2;
             buttonSolve.Text = "Solve";
             buttonSolve.UseVisualStyleBackColor = true;
+            buttonSolve.Click += buttonSolve_Click;
             // 
             // Form1
             // 
@@ -73,7 +75,8 @@
             Controls.Add(buttonClear);
             Controls.Add(tableGrid);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Sudoku Solver";
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 

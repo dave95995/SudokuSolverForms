@@ -48,6 +48,7 @@
             // 
             // buttonClear
             // 
+            buttonClear.Font = new Font("Segoe UI", 14.25F);
             buttonClear.Location = new Point(12, 584);
             buttonClear.Name = "buttonClear";
             buttonClear.Size = new Size(160, 57);
@@ -58,6 +59,7 @@
             // 
             // buttonSolve
             // 
+            buttonSolve.Font = new Font("Segoe UI", 14.25F);
             buttonSolve.Location = new Point(402, 584);
             buttonSolve.Name = "buttonSolve";
             buttonSolve.Size = new Size(160, 57);
